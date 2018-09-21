@@ -20,7 +20,7 @@ Gazebo :7.14.0
 
 ### 2. Setup
 
-- [denso_robot_ros](https://github.com/YamafukuKei/denso_robot_ros) setup
+- [denso_robot_ros](https://github.com/YamafukuKei/denso_robot_ros) , [industrial_moveit](https://github.com/ros-industrial/industrial_moveit)setup
 
         $ cd ~/your_ws
         $ rosdep install -i --from-paths src
@@ -46,3 +46,6 @@ Gazebo :7.14.0
 - Simulate vs087 with robotiq-3f-gripper on Gazebo & MoveIt!
 
         $ roslaunch vs087_with_robotiq_3f_gripper_bringup vs087_with_robotiq_3f_gripper_bringup.launch
+
+
+  <img src="/gif/robot_arm&hand-2018-09-21_21.27.09.gif" width="900" height="450">
