@@ -45,4 +45,4 @@ Gazebo :7.14.0
 
 - Simulate vs087 with robotiq-3f-gripper on Gazebo & MoveIt!
 
-        $ roslaunch vs087_with_robotiq_3f_gripper_bringup vs087_with_robotiq_3f_gripper.launch
+        $ roslaunch vs087_with_robotiq_3f_gripper_bringup vs087_with_robotiq_3f_gripper_bringup.launch
