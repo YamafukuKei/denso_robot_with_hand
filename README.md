@@ -37,7 +37,7 @@ Gazebo :7.14.0
         $ cd ~/your_ws
         $ catkin_make
 
-    **Note:** Maybe you will fail catkin_make because [ros-industrial/robotiq](https://github.com/ros-industrial/robotiq) require some packages. Please check   catkin_make error and install required packages by using under command:
+    **Note:** Maybe you will fail catkin_make because [ros-industrial/robotiq](https://github.com/ros-industrial/robotiq) require some packages. Please check   catkin_make error and install required packages by using this command:
 
         $ sudo apt install ros-kinetic-[required package name]
 
