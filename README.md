@@ -4,6 +4,8 @@
 
 This project do easy robot arm & hand simulation on Gazebo & MoveIt!
 
+<img src="/picture/arm&hand.png">
+
 ##  Installation
 The project uses ROS Kinetic Kame running on Ubuntu 16.04 LTS
 
