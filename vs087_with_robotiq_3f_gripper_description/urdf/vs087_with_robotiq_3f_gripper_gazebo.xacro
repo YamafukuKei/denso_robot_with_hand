@@ -249,7 +249,7 @@
 
 
   <joint name="gripper_joint" type="fixed">
-  <origin xyz="0 0 0.038" rpy="${pi/2} 0 0"/>
+  <origin xyz="0 0 0.038" rpy="${pi/2} 0 ${pi}"/>
   <parent link="J6"/>
   <child link="palm"/>
   </joint>
