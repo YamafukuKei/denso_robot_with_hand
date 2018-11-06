@@ -264,8 +264,7 @@
     <plugin name="gazebo_grasp_fix" filename="libgazebo_grasp_fix.so">
       <arm>
         <arm_name>vs087</arm_name>
-        <palm_link>J6</palm_link>
-        <gripper_link>palm</gripper_link>
+        <palm_link>palm</palm_link>
         <gripper_link>finger_1_link_0</gripper_link>
         <gripper_link>finger_1_link_1</gripper_link>
         <gripper_link>finger_1_link_2</gripper_link>
