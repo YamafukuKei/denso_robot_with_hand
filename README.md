@@ -6,7 +6,7 @@ This project do easy robot arm & hand simulation on Gazebo & MoveIt!
 
 <img src="/picture/vs087_with_robotiq_3f_gripper_bringup.png">
 
-##  Installation
+##  Installation & Simulation
 The project uses ROS Kinetic Kame running on Ubuntu 16.04 LTS
 
 Gazebo :7.14.0
