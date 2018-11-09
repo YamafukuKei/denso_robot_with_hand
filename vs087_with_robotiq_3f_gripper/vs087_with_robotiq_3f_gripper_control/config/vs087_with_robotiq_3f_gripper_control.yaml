@@ -14,7 +14,7 @@ vs087_with_robotiq_3f_gripper:
       - joint_6
 
   gripper_controller:
-    type: "effort_controllers/JointTrajectoryController"
+    type: "position_controllers/JointTrajectoryController"
     joints:
       - palm_finger_1_joint
       - finger_1_joint_1
