@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
-  <xacro:include filename="$(find denso_robot_descriptions)/vs087_description/vs087.urdf"/>
+  <xacro:include filename="$(find denso_robot_descriptions)/vs087_description/vs087/vs087.urdf"/>
   <xacro:include filename="$(find robotiq_3f_gripper_visualization)/cfg/robotiq-3f-gripper_articulated.xacro"/>
 
   <transmission name="trans_7_0">
@@ -115,47 +115,47 @@
   </transmission>
 
   <!-- Link0 -->
-  <gazebo reference="base_link">
+  <!-- <gazebo reference="base_link">
     <mu1>2</mu1>
     <mu2>2</mu2>
-  </gazebo>
+  </gazebo> -->
 
   <!-- Link1 -->
-  <gazebo reference="J1">
+  <!-- <gazebo reference="J1">
     <mu1>0.2</mu1>
     <mu2>0.2</mu2>
-  </gazebo>
+  </gazebo> -->
 
   <!-- Link2 -->
-  <gazebo reference="J2">
+  <!-- <gazebo reference="J2">
     <mu1>0.2</mu1>
     <mu2>0.2</mu2>
-  </gazebo>
+  </gazebo> -->
 
   <!-- Link3 -->
-  <gazebo reference="J3">
+  <!-- <gazebo reference="J3">
     <mu1>0.2</mu1>
     <mu2>0.2</mu2>
-  </gazebo>
+  </gazebo> -->
 
 
   <!-- Link4 -->
-  <gazebo reference="J4">
+  <!-- <gazebo reference="J4">
     <mu1>0.2</mu1>
     <mu2>0.2</mu2>
-  </gazebo>
+  </gazebo> -->
 
   <!-- Link5 -->
-  <gazebo reference="J5">
+  <!-- <gazebo reference="J5">
     <mu1>0.2</mu1>
     <mu2>0.2</mu2>
-  </gazebo>
+  </gazebo> -->
 
   <!-- Link6 -->
-  <gazebo reference="J6">
+  <!-- <gazebo reference="J6">
     <mu1>0.2</mu1>
     <mu2>0.2</mu2>
-  </gazebo>
+  </gazebo> -->
 
   <gazebo reference="palm">
     <material>Gazebo/Grey</material>
@@ -254,11 +254,11 @@
   <child link="palm"/>
   </joint>
   <gazebo>
-  <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+  <!-- <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
     <robotNamespace>/vs087_with_robotiq_3f_gripper</robotNamespace>
     <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
   </plugin>
-  </gazebo>
+  </gazebo> -->
 
   <gazebo>
     <plugin name="gazebo_grasp_fix" filename="libgazebo_grasp_fix.so">
